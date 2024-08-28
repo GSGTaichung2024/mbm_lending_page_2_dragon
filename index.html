@@ -43,7 +43,7 @@
 		!function (f, b, e, v, n, t, s) {
 			if (f.fbq) return; n = f.fbq = function () {
 				n.callMethod ?
-				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
 			};
 			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
 			n.queue = []; t = b.createElement(e); t.async = !0;
@@ -57,12 +57,36 @@
 	<noscript><img height="1" width="1" style="display:none"
 			src="https://www.facebook.com/tr?id=1511637356896559&ev=PageView&noscript=1" /></noscript>
 	<!-- End Meta Pixel Code -->
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XYBE3XKV3E"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-XYBE3XKV3E');
+	</script>
+
+	<!-- Google Tag Manager -->
+	<script>(function (w, d, s, l, i) {
+			w[l] = w[l] || []; w[l].push({
+				'gtm.start':
+					new Date().getTime(), event: 'gtm.js'
+			}); var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-PDQXHWS3');</script>
+	<!-- End Google Tag Manager -->
 </head>
 
 <body
 	class="home page-template page-template-elementor_canvas page page-id-1086 layout-fullwidth blog-default elementor-default elementor-template-canvas elementor-kit-11 elementor-page elementor-page-1086 e--ua-blink e--ua-edge e--ua-mac e--ua-webkit"
 	data-elementor-device-mode="laptop">
-
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDQXHWS3" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<div data-elementor-type="wp-page" data-elementor-id="1086" class="elementor elementor-1086"
 		data-elementor-post-type="page">
 		<div class="elementor-element elementor-element-e777e62 e-flex e-con-boxed e-con e-parent" data-id="e777e62"
@@ -209,8 +233,9 @@
 					<div class="elementor-widget-container" style="background-image: url('./assets/83-V2-BTN.gif');">
 						<div class="elementor-button-wrapper">
 							<a class="elementor-button elementor-button-link elementor-size-sm"
-							href="https://mb03.mbm88.net/login?id=register" target="_blank" onclick="fbq('track', 'Lead');">
-							<span class="elementor-button-content-wrapper">
+								href="https://mb03.mbm88.net/login?id=register" target="_blank"
+								onclick="fbq('track', 'Lead');">
+								<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">點擊這裡</span>
 								</span>
 							</a>
